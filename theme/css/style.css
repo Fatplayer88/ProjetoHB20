@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Libre+Bodoni:ital@1&family=Lora&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(../img/page-produtos/background.svg);
+}
+
+main {
+    margin-bottom: 20px;
+}
+
+.cabecalho {
+    background: rgba(15, 49, 70, 0.8);
+    height: 60px;
+    filter: contrast(115%);
+}
+
+.cabecalho div {
+    display: flex;
+    justify-content: end;
+}
+
+.cabecalho div i {
+    margin-right: 60px;
+    margin-top: 20px;
+}
+
+.fundo-azul-rifas-destaques {
+    margin-top: 30px;
+    padding-top: 20px;
+    background: rgba(15, 49, 70, 0.8);
+    height: 660px;
+    width: 75%;
+    margin-left: 170px;
+    filter: contrast(115%);
+    border-radius: 15px;
+}
+
+.fundo-azul-rifas-destaques h2 {
+    text-align: center;
+    color: white;
+}
+
+.flex-das-rifas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.rifas-destaques {
+    padding: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.espaco-branco-destaque {
+    width: 250px;
+    height: 160px;
+    background: #fff;
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.espaco-branco-destaque h3 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.espacinho-azul-descricao {
+    width: 250px;
+    height: 110px;
+    background: #1B557A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 220px;
+    z-index: -1;
+    padding: 8px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.flex-descricao-produto {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-descricao-produto p {
+    color: white;
+    margin-top: 8px;
+}
+
+.flex-descricao-produto a {
+    background: #154360;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid #154360;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+@keyframes pisca-pisca {
+    0% { opacity: 0; }
+    50% { opacity: 0.5; }
+    100% { opacity: 1; }
+}
+
+.pisca-pisca {
+    text-decoration: none;
+    border-radius: 4px;
+    -webkit-animation: pisca-pisca .8s linear infinite;
+    -moz-animation: pisca-pisca .8s linear infinite;
+    -ms-animation: pisca-pisca .8s linear infinite;
+    -o-animation: pisca-pisca .8s linear infinite;
+    animation: pisca-pisca .8s linear infinite;
+    color: #00FF89;
+}
+
+.espaco-branco-destaque-linha-dois {
+    width: 250px;
+    height: 160px;
+    background: #fff;
+    border-radius: 15px;
+    z-index: 1;
+    margin-top: 110px;
+}
+
+.espaco-branco-destaque-linha-dois h3 {
+    text-align: center;
+    padding-top: 60px;
+}
+
+.espacinho-azul-descricao-linha-dois {
+    width: 250px;
+    height: 110px;
+    background: #1B557A;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: absolute;
+    top: 515px;
+    z-index: -1;
+    padding: 8px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../img/loguin/Simple\ Shiny.svg)no-repeat center/cover;
+}
+
+.quadrado {
+    width: 600px;
+    height: 410px;
+    background: #0B2037;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 110px;
+    border-radius: 10px;
+}
+
+.quadrado h1 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 30px;
+}
+
+.formulario input {
+    width: 250px;
+    padding: 17px;
+    margin-bottom: 10px;
+    border: 0.5px solid white;
+    border-radius: 10px;
+}
+
+.quadrado button {
+    margin-top: 8px;
+    width: 210px;
+    height: 35px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    opacity: 50%;
+}
